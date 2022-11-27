@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="wrapper">
+    <section class="welcome">
+      <h2 class="title">Практическое задание 1.1</h2>
+      <p class="text">Как тебя зовут?</p>
+      <div class="welcome__element">
+        <input class="welcome__input-in" type="text">
+        <button class="welcome__button"> ✓ </button>
+      </div>
+    </section>
+
+    <section class="calculator">
+      <h2 class="title">Практическое задание 1.2</h2>
+      <p class="text">Калькулятор</p>
+      <div class="calculator__container">
+        <input class="calculator__num" id="num1" type="text" placeholder="Введите первое число">
+        <input class="calculator__num" id="num2" type="text" placeholder="Введите второе число">
+        <button class="calculator__button" id="sum">+</button>
+        <button class="calculator__button" id="subtract">−</button>
+        <button class="calculator__button" id="multiply">×</button>
+        <button class="calculator__button" id="divide">÷</button>
+        <div class="calculator__result" id="result"></div>
+      </div>
+    </section>
+
+    <section class="colors">
+      <h2 class="title">Практическое задание 2</h2>
+      <p class="text">Изменяет цвет по клику</p>
+      <div class="color">
+        <div id="color-red" onclick="changeColorRed()">
+          <p id="text-red">Red</p>
+        </div>
+        <div id="color-green" onclick="changeColorGreen()">
+          <p id="text-green">Green</p>
+        </div>
+        <div id="color-blue" onclick="changeColorBlue()">
+          <p id="text-blue">Blue</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
