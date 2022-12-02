@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas:
         "welcome calculator"
-        "colors galery ";
+        "colors gallery ";
     max-width: 100%;
     height: 100%;
 }
@@ -19,14 +19,14 @@
     grid-area: colors;
 }
 
-.galery {
-    grid-area: galery;
+.gallery {
+    grid-area: gallery;
 }
 
 .welcome,
 .calculator,
 .colors,
-.galery {
+.gallery {
     margin: 30px;
     padding: 85px;
     background-color: rgb(142, 184, 157);
@@ -102,4 +102,10 @@
 
 #color-blue {
     background-color: blue;
+}
+
+.gallery__image>img {
+    display: block;
+    margin: 0 auto;
+    max-width: 35%;
 }

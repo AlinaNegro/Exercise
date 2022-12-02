@@ -75,3 +75,15 @@ function changeColorBlue() {
     div.style.backgroundColor = 'purple';
     text.textContent = 'Purple';
 }
+
+/* простая галерея */
+
+let img = document.querySelector('.gallery__image > img');
+
+function getNextImg() {
+    img.setAttribute("src", "img/img2.jpg")
+}
+
+function getPreviousImg() {
+    img.setAttribute("src", "img/img3.jpg")
+}
